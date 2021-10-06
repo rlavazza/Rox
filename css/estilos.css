@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Zilla+Slab:ital,wght@0,300;1,300&display=swap');
+body{
+    font-family: 'Zilla Slab', serif;
+}
+.nav a, li a{
+    color: black;
+    font-family: 'Zilla Slab', serif;
+    font-size: 20px;
+    text-decoration: none;
+    }
+a:hover{
+    color: black !important;
+    font-weight: bolder;
+}
+#home, #contacto, #trabajo{
+    background-image: url(../imagenes/wall2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: rgb(22, 20, 20);
+}
+#home h1{
+    font-size: 80px;
+}
+#home h2{
+    font-size:28px ;
+}
+.sobremi{
+    background-image: url(../imagenes/wall.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+h1{
+    font-size: 60px;
+}
+h2{
+    font-size:25px;
+    color: white;
+}
+h3{
+    font-size: 22px;
+}
+H4, h5, p{
+    font-size: 18px;
+}
+h4{
+    color: rgb(59, 57, 57);
+    font-weight: bolder;
+}
+h6{
+    color: white;
+    font-size: 18px;
+    font-weight: bolder;
+}
+.stack h3{
+    font-weight: bolder;
+}
+.experiencia span{
+    font-weight: bolder;
+}
+.experiencia a{
+    font-family:'Zilla Slab', serif;
+    text-decoration: none;
+    color: rgb(59, 57, 57);
+    font-weight: bolder;
+    font-size: 18px;
+}
+.info{
+    font-size: 22px;
+}
+.ro{
+    border-radius: 5px;
+    border-color: black;
+    border-style: solid;
+    display: block;
+    margin: auto;
+}
+.btn-dark:hover{
+    color:whitesmoke!important;
+}
+.boxes{
+    background-color: white;
+    border-style: solid;
+    border-color: black;
+    border-radius: 5px;  
+}
+
+.far{
+    padding-left: 5px;
+    padding-top: 10px;
+    color: white;
+    font-size: 25px;
+}
+.produ{
+    border-bottom: rgb(240, 237, 237);
+}
+
+.entrevistas{
+     border-radius: 5px;
+    border-color: rgb(172, 169, 169);
+}
+
+.form-control{
+    border-radius: 7px;
+}
+.form-label{
+    color: white;
+    font-size: 18px;
+}
+footer{
+    background-color: white;
+}
+footer a{
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+}
+.fab{
+    font-size: 25px;
+    color: black;
+    padding: 0px  16px;
+ }
